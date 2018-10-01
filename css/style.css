@@ -66,7 +66,7 @@ select {
 .ba-menu {
 	display:flex;
 	list-style:none;
-	margin: 34px 324px 0 0;
+	margin: 32px -66px 0 0;
 	padding: 0;
 	
 }
@@ -90,7 +90,7 @@ select {
 }
 
 .ba-logo {
-	margin: -6px 0px 0px 235px;
+	margin:-8px 0px 0px 175px;
 }
 
 .ba-header-text {
@@ -99,8 +99,8 @@ select {
     font-style: italic;
     letter-spacing: 1.8px;
     text-shadow: 0px 1px 40px rgba(1, 1, 1, 0.55);
-    margin-top: -6px;
-    margin-left: -57px;
+    margin-top: -9px;
+    margin-left: 272px;
 }
 
 .ba-intro-title {
@@ -109,14 +109,14 @@ select {
     line-height: 0.3;
     text-shadow: 0px 1px 40px rgba(1, 1, 1, 0.55);
     text-transform: uppercase;
-    margin: 45px 0px 0px -80px;
+    margin: 45px 0px 0px 250px;
     letter-spacing: 5px;
 }
 
 .ba-button {
 	display: inline-block;
-	margin: 66px 0px 19px -80px;
-    padding: 12px 76px 14px 76px;
+	margin: 66px 0px 19px 247px;
+    padding: 12px 74px 14px 81px;
     letter-spacing: 0.4px;
 	border: 3px solid white;
 	color:white;
@@ -136,6 +136,6 @@ select {
 	font-size: 14px;
     line-height: 2.1;
     text-transform: uppercase;
-    margin-right: 39px;
+    margin-right: -126px;
 	letter-spacing: 0.7px;
 }
