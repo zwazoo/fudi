@@ -46,7 +46,7 @@ select {
 }
 
 .ba-intro {
-	background:linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.5) 50%), url(../images/main-image.jpg) no-repeat 50%;
+	background:linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.85) 97%), url(../images/main-image.jpg) no-repeat 50%;
 	background-size: cover;
 	text-align:center;
 	color:white;
@@ -66,7 +66,7 @@ select {
 .ba-menu {
 	display:flex;
 	list-style:none;
-	margin: 32px -66px 0 0;
+	margin: 32px 139px 0 0;
 	padding: 0;
 	
 }
@@ -100,7 +100,7 @@ select {
     letter-spacing: 1.8px;
     text-shadow: 0px 1px 40px rgba(1, 1, 1, 0.55);
     margin-top: -9px;
-    margin-left: 272px;
+    margin-left: 67px;
 }
 
 .ba-intro-title {
@@ -109,14 +109,14 @@ select {
     line-height: 0.3;
     text-shadow: 0px 1px 40px rgba(1, 1, 1, 0.55);
     text-transform: uppercase;
-    margin: 45px 0px 0px 250px;
+    margin: 45px 0px 0px 44px;
     letter-spacing: 5px;
 }
 
 .ba-button {
 	display: inline-block;
-	margin: 66px 0px 19px 247px;
-    padding: 12px 74px 14px 81px;
+	margin: 66px 0px 19px 44px;
+    padding: 12px 76px 15px 81px;
     letter-spacing: 0.4px;
 	border: 3px solid white;
 	color:white;
@@ -136,6 +136,6 @@ select {
 	font-size: 14px;
     line-height: 2.1;
     text-transform: uppercase;
-    margin-right: -126px;
+    margin-right: -23px;
 	letter-spacing: 0.7px;
 }
