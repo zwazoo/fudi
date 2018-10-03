@@ -145,3 +145,38 @@ select {
     margin-right: -23px;
 	letter-spacing: 0.7px;
 }
+
+.ba-cuisines {
+	display:flex;
+	flex-wrap: wrap;
+}
+
+.ba-cuisines-item {
+	flex-basis: 320px;
+	flex-grow:1;
+	position: relative;
+	color: white;
+	text-shadow:1px 0 40px black;
+}
+
+.ba-cuisines-item img {
+	width:100%;
+	display:block;
+}
+
+.ba-cuisines-desc {
+	position:absolute;
+	left:0;
+	top:0;
+	width:100%;
+	height:100%;
+	text-align:center;
+	display:flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+
+.ba-cuisines-title {
+	margin:0;
+}
