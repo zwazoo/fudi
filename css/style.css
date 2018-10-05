@@ -2,12 +2,11 @@
 
 body{
 	font:400 16px/1.1 Lato, sans-serif;
+	background:white;
 }
 
 /* Layout */
 .ba-container{
-	padding-left: 203px;
-	padding-right: 210px;
 	max-width: 1188px;
 }
 
@@ -50,7 +49,7 @@ select {
 	background-size: cover;
 	text-align:center;
 	color:white;
-	padding: 352px 0 242px;
+	padding: 352px 0 218px;
 	
 }
 
@@ -70,8 +69,8 @@ select {
 .ba-menu {
 	display:flex;
 	list-style:none;
-	padding: 0px 0px 0px 0px;
-	margin:0;
+	margin-top: 7px;
+    margin-right: -48px;
 }
 
 .ba-menu a {
@@ -94,7 +93,7 @@ select {
 }
 
 .ba-logo {
-	margin:-8px 0px 0px -209px;
+	margin:-9px 0px 0px -4px;
 	display:block;
 }
 
@@ -105,7 +104,7 @@ select {
     letter-spacing: 1.8px;
     text-shadow: 0px 1px 40px rgba(1, 1, 1, 0.55);
     margin-top: -9px;
-    margin-left: 72px;
+    margin-left: 67px;
 }
 
 .ba-intro-title {
@@ -180,3 +179,170 @@ select {
 .ba-cuisines-title {
 	margin:0;
 }
+
+.ba-feedback {
+	display: flex;
+	justify-content: space-between;
+	padding: 101px 0px 82px 58px;
+	color: #000000;
+}
+
+.ba-feeadback__item {
+	display: inline-block;
+	text-align: center;
+}
+
+.ba-feeadback__item + .ba-feeadback__item {
+	margin-left: 50px;
+}
+
+.ba-feedback__title {
+    font-size: 18px; 
+    font-weight: 700;
+    line-height: 1.7;
+    text-transform: uppercase;
+    padding-top: 10px;
+    letter-spacing: 1px;
+}
+
+.ba-feedback__title:after {
+    content: '';
+    display: block;
+    height: 1px;
+    background: #F9D7D3;
+    width: 88px;
+	margin: 3px auto;
+}
+
+.ba-feedback__desc {
+font-weight: 300;
+line-height: 1.5;
+letter-spacing: 1px;
+margin-top: -5px;
+}
+
+.ba-app {
+	color:black;
+	background:#F4F4F4;
+	padding-top: 101px;
+}
+
+.ba-app__forphones {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.ba-app__device {
+	padding-left: 3px;
+	width: 48%;
+}
+
+.ba-app__desc {
+	padding:73px 0px 0px 95px;
+	width:48%;
+}
+
+.ba-app__title {
+	text-transform: uppercase;
+	font-size: 18px;
+    font-weight: 700;
+	line-height: 1.7;
+	letter-spacing: 1px;
+}
+
+.ba-app__inf {
+	line-height: 1.6;
+    letter-spacing: 0.5px;
+	margin: -2px 0px 5px 1px;
+}
+
+.ba-app__download {
+	display:inline-block;
+	margin-top: 24px;
+    margin-right: 8px;
+}
+
+.ba-empty {
+	background: #483546;
+	padding: 230px;
+}
+
+.ba-col-1 {
+	width:5%;
+  }
+  
+  .ba-col-2 {
+	width:10%;
+  }
+  
+  .ba-col-3 {
+	width:15%;
+  }
+  
+  .ba-col-4 {
+	width:20%;
+  }
+  
+  .ba-col-5 {
+	width:25%;
+  }
+  
+  .ba-col-6 {
+	width:30%;
+  }
+  
+  .ba-col-7 {
+	width:35%;
+  }
+  
+  .ba-col-8 {
+	width:40%;
+  }
+  
+  .ba-col-9 {
+	width:45%;
+  }
+  
+  .ba-col-10 {
+	width:50%;
+  }
+  
+  .ba-col-11 {
+	width:55%;
+  }
+  
+  .ba-col-12 {
+	width:60%;
+  }
+
+  .ba-col-13 {
+	width:65%;
+  }
+
+  .ba-col-14 {
+	width:70%;
+  }
+
+  .ba-col-15 {
+	width:75%;
+  }
+
+  .ba-col-16 {
+	width:80%;
+  }
+
+  .ba-col-17 {
+	width:85%;
+  }
+
+  .ba-col-18 {
+	width:90%;
+  }
+
+  .ba-col-19 {
+	width:95%;
+  }
+
+  .ba-col-20 {
+	width:100%;
+  }
