@@ -162,7 +162,7 @@ body, html {
 	width: 41.65%;
 }
 .ba-col-4{
-	width: 33.333%;
+	width: 33%;
 }
 .ba-col-3{
 	width: 25%;
@@ -172,4 +172,13 @@ body, html {
 }
 .ba-col-1{
 	width: 8.3334%;
+}
+
+@media screen and (max-width:768px){
+	.ba-col-mb-12{
+		width: 100%;
+	}
+	.ba-col-mb-6{
+		width: 50%;
+	}
 }
